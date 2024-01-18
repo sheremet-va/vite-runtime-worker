@@ -1,0 +1,16 @@
+{
+  "name": "vite-runtime-worker",
+  "version": "0.0.0",
+  "description": "Running Vite SSR inside a worker thread.",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+  },
+  "devDependencies": {
+    "bumpp": "^9.3.0"
+  }
+}
